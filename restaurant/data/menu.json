@@ -1,0 +1,9 @@
+{
+        
+        "appName" : ["Chicken", "Beef"],
+        "appDescription" : ["yummy","super yummy"],
+        "appPrice" : [5,6],
+        "entreeName" : ["Chicken", "Beef"],
+        "entreeDescription" : ["yummy","super yummy"],
+        "entreePrice" : [5,6]
+}

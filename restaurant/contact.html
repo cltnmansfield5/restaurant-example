@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	</head>
+<body>
+    <img alt="Logo for Matsuhisa" src="images/WHITE-LOGO-NO-LOC.png">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Food Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a id="active" href="contact.html">Contact Us</a>
+    </div>
+        <div class="main">
+            <h2 class="page-title">Send Us A Message!</h2>
+            <p id="display"></p>
+                <form id="contact" class="contact-form">
+                    <div class="form-group">
+                      <label for="fullName">Full Name</label>
+                      <input name="fullName" type="text" class="form-control" id="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <input name="emailAddress" type="email" class="form-control" id="emailAddress" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <input name="message" type="text" class="form-control" id="message" required>
+                    </div>
+                    <button id="submitButton" type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <br>
+        </div>
+    
+    <footer class="footer">
+        University of Denver ICT4510 Final Project
+    </footer>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
